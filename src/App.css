@@ -1,0 +1,19 @@
+.card {
+  width: 350px;
+  height: 120px;
+  box-shadow: 3px 3px 17px 3px;
+}
+
+.card-title {
+  background-color: #c33138;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.team-top,
+.team-bottom {
+  padding: 5px;
+}

@@ -1,13 +1,13 @@
 import React from 'react';
-import { data } from '../data.js';
 
-export default function Cards() {
-  console.log(data);
+export default function Cards(props) {
+  const { title, teamTop, teamBottom } = props;
+
   return (
     <div className="card">
-      <div className="card-title">Wildcard</div>
-      <div className="team-top">team-top</div>
-      <div className="team-bottom">team-bottom</div>
+      <div className="card-title">{title}</div>
+      <div className="team-top">{teamTop}</div>
+      <div className="team-bottom">{teamBottom}</div>
     </div>
   );
 }

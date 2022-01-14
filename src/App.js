@@ -1,10 +1,12 @@
-import "./App.css";
-import Cards from "./components/Cards";
+import './App.css';
+import BracketColumns from './components/BracketColumns';
+import { data } from './data.js';
 
 function App() {
+  const { AFC, NFC } = data;
   return (
     <div className="App">
-      <Cards />
+      <BracketColumns AFC={AFC} NFC={NFC} />
     </div>
   );
 }

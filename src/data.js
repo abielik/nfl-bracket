@@ -1,60 +1,60 @@
 export const data = {
   AFC: {
-    '1 Seed': {
+    seed1: {
       city: 'Tennessee',
       name: 'Titans',
     },
-    '2 Seed': {
+    seed2: {
       city: 'Kansas City',
       name: 'Chiefs',
     },
-    '3 Seed': {
+    seed3: {
       city: 'Buffalo',
       name: 'Bills',
     },
-    '4 Seed': {
+    seed4: {
       city: 'Cincinnati',
       name: 'Bengals',
     },
-    '5 Seed': {
+    seed5: {
       city: 'Las Vegas',
       name: 'Raiders',
     },
-    '6 Seed': {
+    seed6: {
       city: 'New England',
       name: 'Patriots',
     },
-    '7 Seed': {
+    seed7: {
       city: 'Pittsburgh',
       name: 'Steelers',
     },
   },
   NFC: {
-    '1 Seed': {
+    seed1: {
       city: 'Green Bay',
       name: 'Packers',
     },
-    '2 Seed': {
+    seed2: {
       city: 'Tampa Bay',
       name: 'Buccaneers',
     },
-    '3 Seed': {
+    seed3: {
       city: 'Dallas',
       name: 'Cowboys',
     },
-    '4 Seed': {
+    seed4: {
       city: 'Los Angeles',
       name: 'Rams',
     },
-    '5 Seed': {
+    seed5: {
       city: 'Arizona',
       name: 'Cardinals',
     },
-    '6 Seed': {
+    seed6: {
       city: 'San Francisco',
       name: '49ers',
     },
-    '7 Seed': {
+    seed7: {
       city: 'Philadelphia',
       name: 'Eagles',
     },

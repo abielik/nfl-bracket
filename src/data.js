@@ -1,4 +1,4 @@
-const data = {
+export const data = {
   AFC: {
     '1 Seed': {
       city: 'Tennessee',
